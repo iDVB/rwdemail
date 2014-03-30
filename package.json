@@ -1,0 +1,27 @@
+{
+  "name": "rwdemail",
+  "version": "0.0.1",
+  "description": "Responsive Email Workflow using Ink and Premailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iDVB/rwdemail.git"
+  },
+  "author": "Dan Van Brunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iDVB/rwdemail/issues"
+  },
+  "homepage": "https://github.com/iDVB/rwdemail",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-litmus": "~0.1.3",
+    "grunt-inline-css": "~0.1.4",
+    "ink": "git+https://github.com/zurb/ink.git",
+    "grunt-email-builder": "~1.1.5",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
