@@ -13,14 +13,16 @@ module.exports = function(grunt) {
 	    }
 	  },
 	  litmus: {
-	    files: { 'dest/output.html' : 'src/input.html' },
+	    files: { '.tmp/output.html' : 'assets/html/sidebar-hero.html' },
 	    options: {
 	      encodeSpecialChars: true,
 	      litmus: {
+	      	subject : 'This is another test again asdf',
 	        username: 'dvanbrunt@klick.com',
 	        password: 'jGrvYYTuBzbJt2KzqJ8GZkBx',
-	        url: 'https://yoursite.litmus.com',
-	        applications: ['gmailnew', 'ffgmail', 'chromegmail']
+	        url: 'https://klick.litmus.com',
+	        //applications: ['ol2003','ol2007']
+	        applications: ['android22','ol2003','ol2007','ol2010','ol2011','ol2013','chromegmailnew','chromeyahoo','appmail6','iphone5','iphone4','ipad','android4','blackberryhtml']
 	      }
 	    }
 	  }
