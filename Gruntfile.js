@@ -18,9 +18,9 @@ module.exports = function(grunt) {
 	      encodeSpecialChars: true,
 	      litmus: {
 	      	subject : 'This is your subject line',
-	        username: 'your@email.com',
-	        password: 'your_password',
-	        url: 'https://klick.litmus.com',
+	        username: 'your@email.com', 	// UPDATE THESE WITH YOUR CREDS
+	        password: 'your_password', 		// UPDATE THESE WITH YOUR CREDS
+	        url: 'https://your.litmus.com', // UPDATE THESE WITH YOUR CREDS
 	        applications: ['android22','ol2003','ol2007','ol2010','ol2011','ol2013','chromegmailnew','chromeyahoo','appmail6','iphone5','iphone4','ipad','android4','blackberryhtml']
 	      }
 	    }
