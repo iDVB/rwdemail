@@ -17,13 +17,22 @@ module.exports = function(grunt) {
 	    options: {
 	      encodeSpecialChars: true,
 	      litmus: {
-	      	subject : 'This is another test again asdf',
-	        username: 'dvanbrunt@klick.com',
-	        password: 'jGrvYYTuBzbJt2KzqJ8GZkBx',
+	      	subject : 'This is your subject line',
+	        username: 'your@email.com',
+	        password: 'your_password',
 	        url: 'https://klick.litmus.com',
-	        //applications: ['ol2003','ol2007']
 	        applications: ['android22','ol2003','ol2007','ol2010','ol2011','ol2013','chromegmailnew','chromeyahoo','appmail6','iphone5','iphone4','ipad','android4','blackberryhtml']
 	      }
+	    }
+	  },
+	  emailTest: {
+		files: { '.tmp/output.html' : 'assets/html/sidebar-hero.html' },
+		options: {
+			encodeSpecialChars: true,
+			emailTest : {
+				email : 'dvanbrunt@gmail.com',
+				subject : 'Test Email'
+			}
 	    }
 	  }
 	}
@@ -31,6 +40,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('inline', 'emailBuilder:inline');
   grunt.registerTask('litmus', 'emailBuilder:litmus');
+  grunt.registerTask('emailTest', 'emailBuilder:emailTest');
 
   grunt.registerTask('default', [
   	'inline'
