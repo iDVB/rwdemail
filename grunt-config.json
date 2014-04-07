@@ -1,0 +1,20 @@
+{
+	"common": {
+		"subject": "Default Email"
+	},
+	"aws": {
+		"key": "YOUR_KEY_HERE",
+		"secret": "YOUR_SECRET_HERE",
+		"bucket": "YOUR_S3_BUCKET_HERE",
+		"url": "https://s3.amazonaws.com/YOUR_S3_BUCKET_NAME"
+	},
+	"litmus": {
+		"username": "username@domain.com",
+		"password": "password",
+		"url": "https://yours.litmus.com",
+		"applications": ["android22","ol2003","ol2007","ol2010","ol2011","ol2013","chromegmailnew","chromeyahoo","appmail6","iphone5","iphone4","ipad","android4","blackberryhtml"]
+	},
+	"email": {
+		"emailaddress": "testemail@domain.com"
+	}
+}
