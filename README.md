@@ -15,6 +15,12 @@ Responsive/Normal Email in a box! Automate SASS precomiling, CSS Inlining, CSS/H
  Ruby >= 1.9.3 ([installers](http://www.ruby-lang.org/en/downloads/))
 * SASS >= 3.2.19 (`gem install sass`)
 
+###For windows users
+* Python >= 2.7.6 (https://www.python.org/downloads/)
+* Microsoft Visual Studio 2013 for Windows Desktop/Windows
+After downloading Visual Studio 2013 ('npm install --msvs_version=2013')
+
+
 ## Ink (http://zurb.com/ink/)
 Supported Clients (may be outdated, please see [Ink Docs](http://zurb.com/ink/docs.php#compatibility))
 * Apple Mail (Desktop)
@@ -40,6 +46,4 @@ Copyright (c) 2014 Dan Van Brunt Licensed under the MIT license.
 
 ## To Do:
 - suggestions welcome
-
-
 
