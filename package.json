@@ -18,7 +18,7 @@
   "homepage": "https://github.com/iDVB/rwdemail",
   "devDependencies": {
     "grunt": "~0.4.4",
-    "grunt-email-builder": "~1.1.5",
+    "grunt-email-builder": "~2.0.0",
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-copy": "~0.5.0",

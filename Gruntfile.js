@@ -193,8 +193,8 @@ module.exports = function(grunt) {
 		  emailTest: {
 			files: { '<%= paths.tmp %>/email.html' : '<%= paths.tmp %>/email.html' },
 			options: {
-				encodeSpecialChars: true,
-				emailTest : {
+				encodeSpecialChars: false,
+				emailTest: {
 					email : '<%= settings.email.emailaddress %>',
 					subject : '<%= settings.common.subject %>'
 				}
@@ -280,6 +280,15 @@ module.exports = function(grunt) {
 		'cssmin', // compress css
 		'htmlmin', // compress html
 		'emailBuilder:litmus', // send test to litmus
+	]);
+
+	grunt.registerTask('email', [
+		'base',
+        'replace:cdn', // replace image links from local to cdn
+		's3', // upload copies of images to s3
+		'cssmin', // compress css
+		'htmlmin', // compress html
+		'emailTest', // send test to email
 	]);
 
 };
