@@ -11,6 +11,23 @@ Responsive or Basic Email Development in a box! Automate Everything, from SASS p
 * Automated [Litmus](https://litmus.com) Email Tests with [Email-Builder](https://github.com/yargalot/Email-Builder)
 * HTML/CSS Responsive Email Framework with [Zurb's INK](http://zurb.com/ink/)
 
+## Install
+1. Create *'Projects'* directory in C: drive
+1. Open Git Bash in *'C:/Projects'*
+1. Clone this git repo `git clone https://github.com/iDVB/rwdemail.git`
+1. Git bash into this directory `cd rwdemail`
+1. Install [Python v2.\*.\*](https://www.python.org/download/)
+  * **MUST be version 2** and **MUST be Windows binary. NOT x64**
+1. Install [Ruby](http://rubyinstaller.org/downloads/)
+  * Make sure to check "Add Ruby executables to your PATH" when prompted
+1. In Git Bash, install SASS `gem install sass`
+1. Install [Node](http://nodejs.org/download/)
+  * **MUST be 32-bit version. NOT 64-bit**
+1. Using Node's 'Node.js Command Prompt' cd to the repo directory  `cd C:/Projects/rwdemail`
+1. Install all Node packages `npm install`
+
+Everything should be installed. To test, in your Git Bash run `grunt` 
+
 ## Requirements
 * **On OSX:** Xcode
 * **On Windows:** MS Visual Studio 2012 for Windows Desktop (Express version works well)
