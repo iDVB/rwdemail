@@ -11,14 +11,30 @@ Responsive or Basic Email Development in a box! Automate Everything, from SASS p
 * Automated [Litmus](https://litmus.com) Email Tests with [Email-Builder](https://github.com/yargalot/Email-Builder)
 * HTML/CSS Responsive Email Framework with [Zurb's INK](http://zurb.com/ink/)
 
+## Getting started 
+If you haven't used [Node](http://nodejs.org/) or [Grunt](http://gruntjs.com/getting-started) before, please read the documentation for each to become familiar with them. This plugin uses both Node and Grunt along with other requirements which are listed below.
+
+After cloning this repo and installing all requirements, run
+```shell
+npm install
+```
+
+To launch example email template on a Node.js server, run
+```shell
+grunt dev
+```
+
 ## Requirements
 * **On OSX:** Xcode
 * **On Windows:** MS Visual Studio 2012 for Windows Desktop (Express version works well)
 * Grunt-cli >= 0.1.7 and Grunt >=0.4.2 (`npm install grunt-cli -g`)
-* Python >= 2.7.6 ([installers](https://www.python.org/downloads/))
+* Python >= 2.7.6 && < 3.0.0 ([installers](https://www.python.org/downloads/))
+  * **MUST be Windows binary. NOT x64**
 * Ruby >= 1.9.3 ([installers](http://www.ruby-lang.org/en/downloads/))
+  * Make sure to add Ruby executables to your PATH
 * SASS >= 3.2.19 (`gem install sass`)
-* Node.js >= 0.10.20 ([install wiki](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
+* Node.js >= 0.10.20 ([installers](http://nodejs.org/download/)) ([install wiki](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
+  * **MUST be 32-bit version. NOT 64-bit**
 
 ## Ink (http://zurb.com/ink/)
 Supported Clients (may be outdated, please see [Ink Docs](http://zurb.com/ink/docs.php#compatibility))
