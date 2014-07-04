@@ -24,6 +24,9 @@ To launch example email template on a Node.js server, run
 grunt dev
 ```
 
+## Litmus Applications
+Have a peak at this [XML feed](https://klick9.litmus.com/emails/clients.xml) for the testing client available to your account and then update the **grunt-config.json** file.
+
 ## Requirements
 * **On OSX:** Xcode
 * **On Windows:** MS Visual Studio 2012 for Windows Desktop (Express version works well)
