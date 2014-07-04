@@ -268,7 +268,7 @@ module.exports = function(grunt) {
 		'base',
 		'cssmin', // compress css
 		'inliner', // inline css
-		'htmlmin', // compress html
+		//'htmlmin', // compress html
 		'copy:dist', // copy files from tmp to dist
 		'compress', // zip everything up
 	]);
@@ -278,7 +278,7 @@ module.exports = function(grunt) {
         'replace:cdn', // replace image links from local to cdn
 		's3', // upload copies of images to s3
 		'cssmin', // compress css
-		'htmlmin', // compress html
+		//'htmlmin', // compress html
 		'emailBuilder:litmus', // send test to litmus
 	]);
 
@@ -287,7 +287,7 @@ module.exports = function(grunt) {
         'replace:cdn', // replace image links from local to cdn
 		's3', // upload copies of images to s3
 		'cssmin', // compress css
-		'htmlmin', // compress html
+		//'htmlmin', // compress html
 		'emailTest', // send test to email
 	]);
 
